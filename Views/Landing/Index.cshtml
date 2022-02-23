@@ -1,0 +1,26 @@
+
+@using System.Web.Optimization
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width" />
+  <title>XLTS for AngularJS with .NET Framework</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  @Styles.Render("~/bundles/styles")
+  @Scripts.Render("~/bundles/scripts")
+</head>
+<body ng-app="app">
+  <h1>XLTS for AngularJS with .NET Framework</h1>
+  <test-directive></test-directive>
+  <test-component></test-component>
+</body>
+</html>
