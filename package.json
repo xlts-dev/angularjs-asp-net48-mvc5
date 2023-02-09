@@ -25,6 +25,10 @@
     "update": "npm-check -u",
     "prepare": "npx playwright install"
   },
+  "dependencies": {
+    "angular": "npm:@xlts.dev/angular@^1.9.1",
+    "jquery": "^3.6.3"
+  },
   "devDependencies": {
     "@playwright/test": "^1.30.0",
     "npm-check": "^6.0.1",
