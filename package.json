@@ -1,0 +1,34 @@
+{
+  "name": "angularjs-asp-net48-mvc5",
+  "version": "1.0.0",
+  "description": "A project using AngularJS, .NET Framework 4.8, and ASP.NET MVC 5.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xlts-dev/angularjs-asp-net48-mvc5"
+  },
+  "author": {
+    "name": "XLTS.dev",
+    "email": "support@xlts.dev",
+    "url": "https://xlts.dev/angularjs"
+  },
+  "contributors": [
+    {
+      "name": "Jaroslaw Zolnowski",
+      "email": "jarek@xlts.dev"
+    }
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "vite build",
+    "start": "npm run dev",
+    "prebuild": "rm -rf dist",
+    "e2e": "playwright test",
+    "e2e:debug": "playwright test --project chromium --headed",
+    "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html}\"",
+    "update": "npx npm-check -u"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@playwright/test": "^1.30.0"
+  }
+}
