@@ -1,5 +1,5 @@
 # AngularJS with .NET Framework
-A project using AngularJS, .NET Framework 4.8, and ASP.NET MVC 5.
+A demo project using AngularJS, .NET Framework 4.8, and ASP.NET MVC 5.
 
 ## Features
 
@@ -19,7 +19,7 @@ as part of the Visual Studio 2022 installation as well.
 
 ## Getting Started
 
-- Clone this repository: `git clone https://github.com/xlts-dev/angularjs-asp-net48-mvc5.git`.
+- Clone repository: `git clone https://github.com/xlts-dev/angularjs-asp-net48-mvc5.git`.
 - install npm packages
 
 ```
