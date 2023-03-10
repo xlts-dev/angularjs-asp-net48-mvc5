@@ -18,20 +18,17 @@ Older versions of Visual Studio may work but have not been tested.
 as part of the Visual Studio 2022 installation as well.
 
 ## Getting Started
-Make sure you have configured your authentication with the XLTS.dev registry via:
+- Make sure you have configured your authentication with the XLTS.dev registry by supplying your token in the `.npmrc` file in your user home directory.
 
-- supplying the token in the `.npmrc` file in your user home directory
-- logging into the registry via the npm CLI
+  > **Note**
+  > If you don't have a token for the XLTS.dev registry, you can use the LTS AngularJS packages - see the next section.
 
 - Clone repository: `git clone https://github.com/xlts-dev/angularjs-asp-net48-mvc5.git`.
-- install npm packages:
-
-  ```
-  npm install
-  ```
-
+- Switch to the project's directory: `cd angularjs-asp-net48-mvc5`.
+- Install npm packages: `npm install`.
+- Open the project in Visual Studio.
 - Run the project by pressing the `F5` key or using the green start button in the toolbar. This will launch your web
-browser and display the web application.
+  browser and display the web application.
 
-## Angular LTS support
+## AngularJS LTS packages
 If you want to use the LTS packages, you have to run `npm run switch-to-lts-packages` script instead of `npm i`.
