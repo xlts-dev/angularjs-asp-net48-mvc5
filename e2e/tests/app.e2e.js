@@ -1,12 +1,12 @@
-import { test, expect } from '@playwright/test';
+import { expect, test } from '@playwright/test';
 import {IndexPage} from '../pages/index-page';
-import {TestDirectivePage} from '../pages/test-directive-page';
 import {TestComponentPage} from '../pages/test-component-page';
+import {TestDirectivePage} from '../pages/test-directive-page';
 
 test.describe('angularjs-asp-net48-mvc5 app', () => {
 
   test.beforeEach(async ({ page }) => {
-    await page.goto('http://localhost:50582/');
+    await page.goto('');
   });
 
   test('Index', async ({ page }) => {

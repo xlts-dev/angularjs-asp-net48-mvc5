@@ -35,9 +35,12 @@ bld/
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
-.idea
+
 # Uncomment if you have tasks that create the project's static files in wwwroot
 #wwwroot/
+
+# WebStorm cache/options directory
+.idea
 
 # Visual Studio 2017 auto generated files
 Generated\ Files/
@@ -119,7 +122,7 @@ ipch/
 *.vspx
 *.sap
 
-# Visual Studio Trace Files
+# Playwright e2e tests
 *.e2e
 /test-results/
 /playwright-report/

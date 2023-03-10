@@ -19,16 +19,15 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "vite build",
-    "start": "npm run dev",
-    "prebuild": "rm -rf dist",
     "e2e": "playwright test",
     "e2e:debug": "playwright test --project chromium --headed",
     "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html}\"",
-    "update": "npx npm-check -u"
+    "update": "npm-check -u",
+    "prepare": "npx playwright install"
   },
   "dependencies": {},
   "devDependencies": {
-    "@playwright/test": "^1.30.0"
+    "@playwright/test": "^1.30.0",
+    "prettier": "^2.8.3"
   }
 }
