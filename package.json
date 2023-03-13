@@ -25,9 +25,9 @@
     "update": "npm-check -u",
     "prepare": "npx playwright install"
   },
-  "dependencies": {},
   "devDependencies": {
     "@playwright/test": "^1.30.0",
+    "npm-check": "^6.0.1",
     "prettier": "^2.8.3"
   }
 }

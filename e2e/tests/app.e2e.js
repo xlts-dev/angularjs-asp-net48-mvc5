@@ -1,7 +1,7 @@
 import { expect, test } from '@playwright/test';
-import {IndexPage} from '../pages/index-page';
-import {TestComponentPage} from '../pages/test-component-page';
-import {TestDirectivePage} from '../pages/test-directive-page';
+import { IndexPage } from '../pages/index-page';
+import { TestComponentPage } from '../pages/test-component-page';
+import { TestDirectivePage } from '../pages/test-directive-page';
 
 test.describe('angularjs-asp-net48-mvc5 app', () => {
 
@@ -13,7 +13,6 @@ test.describe('angularjs-asp-net48-mvc5 app', () => {
     const indexPage = new IndexPage(page);
 
     await expect(indexPage.title).toHaveText('XLTS for AngularJS with .NET Framework');
-
   });
 
   test('TestComponent', async ({ page }) => {

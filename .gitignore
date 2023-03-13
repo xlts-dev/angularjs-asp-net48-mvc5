@@ -122,8 +122,10 @@ ipch/
 *.vspx
 *.sap
 
-# Playwright e2e tests
+# Visual Studio Trace Files
 *.e2e
+
+# Playwright e2e tests
 /test-results/
 /playwright-report/
 /playwright/.cache/
