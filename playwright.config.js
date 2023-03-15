@@ -1,4 +1,3 @@
-import '@playwright/test';
 import { devices } from '@playwright/test';
 
 /**
