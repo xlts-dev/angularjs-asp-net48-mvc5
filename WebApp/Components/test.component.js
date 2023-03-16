@@ -1,7 +1,7 @@
 angular.module('app').component('testComponent', {
   controllerAs: 'vm',
   controller: TestComponent,
-  template: '<div class="test-component">AngularJS Version: {{vm.version}}</div>',
+  template: '<div data-testid="angularjs-version" class="test-component">AngularJS Version: {{vm.version}}</div>',
   bindings: {},
 });
 
