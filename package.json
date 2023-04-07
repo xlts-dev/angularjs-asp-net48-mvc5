@@ -15,6 +15,10 @@
     {
       "name": "Jaroslaw Zolnowski",
       "email": "jarek@xlts.dev"
+    },
+    {
+      "name": "Ed Clement",
+      "email": "ed@xlts.dev"
     }
   ],
   "license": "MIT",
@@ -23,7 +27,16 @@
     "e2e:debug": "playwright test --project chromium --headed",
     "prettier": "prettier --write \"**/*.{js,json,css,scss,less,md,ts,html}\"",
     "update": "npm-check -u",
+    "switch-to-lts-packages": "npm i --save angular@1.8.3",
     "prepare": "npx playwright install"
+  },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
+  "dependencies": {
+    "angular": "npm:@xlts.dev/angular@^1.9.1",
+    "jquery": "^3.6.3"
   },
   "devDependencies": {
     "@playwright/test": "^1.30.0",

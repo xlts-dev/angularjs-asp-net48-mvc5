@@ -10,8 +10,8 @@ public class BundleConfig
   {
     // Bundle JavaScript files.
     bundles.Add(new ScriptBundle("~/bundles/scripts")
-      .Include("~/Scripts/jquery-{version}.js")
-      .Include("~/Scripts/angular.min.js")
+      .Include("~/node_modules/jquery/dist/jquery.min.js")
+      .Include("~/node_modules/angular/angular.min.js")
       .IncludeDirectory("~/WebApp", "*.js", false)
       .IncludeDirectory("~/WebApp/Components", "*.js", true)
       .IncludeDirectory("~/WebApp/Directives", "*.js", true));
