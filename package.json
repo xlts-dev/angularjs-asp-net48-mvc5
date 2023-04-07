@@ -30,6 +30,10 @@
     "switch-to-lts-packages": "npm i --save angular@1.8.3",
     "prepare": "npx playwright install"
   },
+  "engines": {
+    "node": ">=16",
+    "npm": ">=8"
+  },
   "dependencies": {
     "angular": "npm:@xlts.dev/angular@^1.9.1",
     "jquery": "^3.6.3"
